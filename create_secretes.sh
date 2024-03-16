@@ -3,7 +3,8 @@
 # Export environment variables from .env file
 export $(grep -v '^#' .env | xargs)
 
-# Create Kubernetes secret
+echo "$POSTGRES_HOST"
+
 kubectl create secret generic cloudsql \
   --from-literal=database="$POSTGRES_DB" \
   --from-literal=username="$POSTGRES_USER" \
