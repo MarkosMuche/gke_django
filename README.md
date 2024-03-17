@@ -1,5 +1,7 @@
 # Setting Up GKE for Django App
 
+This is a very simple implementation of deploying a django application on GKE. I think this one is perfect to learn to do it.
+
 This guide will walk you through setting up a Google Kubernetes Engine (GKE) cluster for a Django application.
 
 ## 1. Create a GKE Cluster
