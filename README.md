@@ -32,7 +32,7 @@ POSTGRES_HOST= <your_cloudsql_public_ip>
 POSTGRES_USER= <your_cloudsql_user>
 POSTGRES_PORT=5432
 POSTGRES_DB= <your_cloudsql_database_name>
-DOCKER_TAG= <path_to_your_artifacts_registry>:<your_tag>
+DOCKER_TAG= <path_to_your_artifacts_registry>/<your_image_name>:<your_tag>
 ```
 
 ## 6. Build and Push Docker Image
